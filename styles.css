@@ -1,0 +1,44 @@
+canvas
+{
+    background-color: skyblue;
+    margin-top: 40px;
+    width: 360px;
+    height: 640px;
+    border-radius: 15px;
+    border: 5px solid black;
+    background-image: url("./assets/flappybirdbg.png");
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button
+{
+    height: 70px;
+    width: 120px;
+    margin-top: 150px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: greenyellow;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 300;
+}
+
+h1
+{
+    font-size: 60px;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 300;
+}
+
+@font-face
+{
+    font-family: "Arcade";
+    src: url('./assets/arcadeclassic/ARCADECLASSIC.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
